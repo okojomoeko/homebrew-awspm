@@ -8,21 +8,21 @@ class Awspm < Formula
 
  if OS.mac? && Hardware::CPU.intel?
 
-   url "https://github.com/okojomoeko/awspm/releases/download/v0.1.0/awspm-macos-amd64.tar.gz"
+   url "https://github.com/okojomoeko/awspm/releases/download/v0.1.1/awspm-macos-amd64.tar.gz"
 
-   sha256 "b4df226ba4e85c6635716a92a3b0a8a423b94383b7c472f9b5a0004a3fcb61ab"
+   sha256 "20787dbc5ff15b981fe5f55c54bdd790aca69eae7f37b62f0ba6119773a15386"
 
  elsif OS.mac? && Hardware::CPU.arm?
 
-   url "https://github.com/okojomoeko/awspm/releases/download/v0.1.0/awspm-macos-arm64.tar.gz"
+   url "https://github.com/okojomoeko/awspm/releases/download/v0.1.1/awspm-macos-arm64.tar.gz"
 
-   sha256 "f87c02e7f4753a6e1f6d457949308ef0165832ed1f6e6dfcd9556501d8508ab5"
+   sha256 "050973b95cb1a0d84f28f181e4a05d567d278537e289c5eeb7896e747357ffe3"
 
  elsif OS.linux? && Hardware::CPU.intel?
 
-   url "https://github.com/okojomoeko/awspm/releases/download/v0.1.0/awspm-linux-amd64.tar.gz"
+   url "https://github.com/okojomoeko/awspm/releases/download/v0.1.1/awspm-linux-amd64.tar.gz"
 
-   sha256 "8a1d54e661588d35cd7aadf1451522c99f48d170ff383617a4eb506ef791e788"
+   sha256 "53a05e02a1c325e15f700a79ce9d1bbf07b70c02e61512b1320f51c8c8318579"
 
  end
 
